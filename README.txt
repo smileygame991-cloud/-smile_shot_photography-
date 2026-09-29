@@ -1,23 +1,14 @@
-SMILE SHOT PHOTOGRAPHY — UPDATED WEBSITE
+SMILE SHOT PHOTOGRAPHY — WEBSITE FILES
 
-Your contact links are already configured:
-- WhatsApp: +91 96248 97956
-- Phone: +91 96248 97956
-- Instagram: @_smile_shot_photography_
+Included: index.html and your uploaded logo/photos in the images folder.
 
-PUBLISH FOR FREE WITH GITHUB PAGES
-1. Download and extract this ZIP file.
-2. Sign in/create a free account at https://github.com/
-3. Create a new PUBLIC repository named: smile-shot-photography
-4. Upload index.html to the repository root (not inside another nested folder).
-5. Open Settings → Pages.
-6. Under Build and deployment, select "Deploy from a branch".
-7. Choose branch "main" and folder "/ (root)", then Save.
-8. Wait for deployment; the Pages screen will show the published URL.
-   It will look like https://YOUR-USERNAME.github.io/smile-shot-photography/
+HOW TO UPDATE YOUR GITHUB PAGES WEBSITE (Android):
+1. Open your GitHub repository named smile-shot-photography.
+2. Upload the index.html file and the entire images folder contents.
+3. Keep the image filenames and the images folder exactly as provided.
+4. If GitHub asks whether to replace index.html, confirm the replacement.
+5. Commit the changes. Your GitHub Pages site should update after a short wait.
 
-IMPORTANT
-- The GitHub Pages hosting and this static website can be free.
-- A custom .com domain is optional and usually costs money.
-- The gallery uses online sample images. Replace them with your own photography for your real portfolio.
-- After publishing, test WhatsApp, phone, and Instagram buttons on your mobile.
+IMPORTANT: Upload all files inside this package. Do not upload only index.html, or the photos/logo will not appear.
+
+Contact links in the website: WhatsApp/phone +91 96248 97956; Instagram @_smile_shot_photography_.
