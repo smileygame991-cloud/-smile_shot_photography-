@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="Smile Shot Photography — weddings, portraits, events, fashion and more. Let's capture your moments.">
+  <title>Smile Shot Photography | Every Moment, A Story</title>
+  <style>
+    :root{--bg:#090909;--panel:#121212;--gold:#d8b45a;--gold2:#f5df9a;--text:#f6f3eb;--muted:#b9b5aa;--line:#302a1b}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none} .wrap{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(9,9,9,.92);backdrop-filter:blur(12px);border-bottom:1px solid #252116}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:17px 0}
+    .brand{font-weight:800;letter-spacing:1.3px;font-size:1.02rem}.brand span{color:var(--gold)}
+    .navlinks{display:flex;gap:22px;color:var(--muted);font-size:.9rem}.navlinks a:hover{color:var(--gold)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 19px;border:1px solid var(--gold);border-radius:3px;background:var(--gold);color:#111;font-weight:700;transition:.2s}
+    .btn:hover{background:var(--gold2);transform:translateY(-1px)} .btn.outline{background:transparent;color:var(--gold)}
+    .hero{min-height:78vh;display:grid;align-items:center;position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+    .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.92),rgba(0,0,0,.64),rgba(0,0,0,.35)),url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2000&q=85') center/cover;opacity:.9}
+    .hero-content{position:relative;padding:90px 0;max-width:760px}
+    .eyebrow{color:var(--gold);letter-spacing:4px;text-transform:uppercase;font-size:.76rem;font-weight:700}
+    h1{font-family:Georgia,'Times New Roman',serif;font-weight:500;font-size:clamp(3rem,7vw,6.5rem);line-height:.99;margin:18px 0}
+    h1 em{font-style:normal;color:var(--gold)} .lead{max-width:590px;color:#ddd8ca;font-size:1.08rem;margin-bottom:28px}
+    .actions{display:flex;flex-wrap:wrap;gap:12px}
+    section{padding:82px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 38px}
+    h2{font:500 clamp(2rem,4vw,3.2rem)/1.1 Georgia,'Times New Roman',serif;margin:12px 0}
+    .section-head p,.muted{color:var(--muted)}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .service{padding:25px;background:linear-gradient(145deg,#171717,#0e0e0e);border:1px solid #2d281b;min-height:185px}
+    .num{font:italic 1.8rem Georgia;color:var(--gold)}.service h3{margin:12px 0 6px}.service p{color:var(--muted);margin:0;font-size:.94rem}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .shot{position:relative;overflow:hidden;aspect-ratio:4/5;background:#1b1b1b;border:1px solid #2b261a}
+    .shot img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s;filter:saturate(.86)}
+    .shot:hover img{transform:scale(1.05)}.shot span{position:absolute;left:0;right:0;bottom:0;padding:35px 16px 15px;background:linear-gradient(transparent,rgba(0,0,0,.85));font-weight:700}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}
+    .about-photo{min-height:420px;background:url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=85') center/cover;border:1px solid var(--line)}
+    .about-copy p{color:var(--muted)}.ticks{padding:0;list-style:none}.ticks li{margin:10px 0}.ticks li:before{content:"✦";color:var(--gold);margin-right:10px}
+    .cta{background:linear-gradient(120deg,#17130a,#0d0d0d);border-block:1px solid var(--line);text-align:center}
+    .contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
+    .contact-card{padding:22px;border:1px solid #39301d;background:#101010}.contact-card strong{display:block;color:var(--gold);margin-bottom:6px}
+    footer{padding:26px 0;border-top:1px solid #262116;color:var(--muted);font-size:.86rem}
+    .foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    @media(max-width:760px){.navlinks{display:none}.services{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}.about-photo{min-height:280px}.contact-grid{grid-template-columns:1fr}.hero{min-height:72vh}section{padding:62px 0}}
+    @media(max-width:460px){.services{grid-template-columns:1fr}.gallery{gap:8px}.shot{aspect-ratio:3/4}.brand{font-size:.88rem}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="brand" href="#home">SMILE SHOT <span>PHOTOGRAPHY</span></a>
+  <div class="navlinks"><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+  <a class="btn" href="#contact">Book a Shoot</a>
+</nav></div></header>
+<main>
+  <section class="hero" id="home"><div class="wrap"><div class="hero-content">
+    <div class="eyebrow">Photography · Films · Memories</div>
+    <h1>Every moment.<br><em>A timeless story.</em></h1>
+    <p class="lead">We turn real emotions, beautiful details and once-in-a-lifetime moments into photographs you’ll love forever.</p>
+    <div class="actions"><a class="btn" href="#contact">Book Your Session ↗</a><a class="btn outline" href="#portfolio">Explore Portfolio</a></div>
+  </div></div></section>
+  <section id="services"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">What we capture</div><h2>Stories worth keeping</h2><p>From grand celebrations to the little details, we photograph every chapter of your life.</p></div>
+    <div class="services">
+      <article class="service"><div class="num">01</div><h3>Wedding Photography</h3><p>Honest emotions, traditions and the moments that make your day yours.</p></article>
+      <article class="service"><div class="num">02</div><h3>Pre-Wedding</h3><p>Creative concepts and cinematic portraits that tell your love story.</p></article>
+      <article class="service"><div class="num">03</div><h3>Portraits & Fashion</h3><p>Personal portraits, portfolios, lifestyle and editorial-style shoots.</p></article>
+      <article class="service"><div class="num">04</div><h3>Events & Birthdays</h3><p>Big celebrations, candid reactions and all the fun in between.</p></article>
+      <article class="service"><div class="num">05</div><h3>Products & Business</h3><p>Clean, compelling visuals for products, brands and businesses.</p></article>
+      <article class="service"><div class="num">06</div><h3>Photo & Cinematic Films</h3><p>Visual storytelling for personal milestones and special occasions.</p></article>
+    </div>
+  </div></section>
+  <section id="portfolio" style="background:#0d0d0d"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">Selected moments</div><h2>The portfolio</h2><p>A small preview of the moments we love to capture. Replace these sample images with your own work.</p></div>
+    <div class="gallery">
+      <div class="shot"><img loading="lazy" src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Wedding celebration"><span>Weddings</span></div>
+      <div class="shot"><img loading="lazy" src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=800&q=80" alt="Couple portrait"><span>Couples</span></div>
+      <div class="shot"><img loading="lazy" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="Portrait photography"><span>Portraits</span></div>
+      <div class="shot"><img loading="lazy" src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80" alt="Event table setup"><span>Events</span></div>
+      <div class="shot"><img loading="lazy" src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=800&q=80" alt="Wedding details"><span>Details</span></div>
+      <div class="shot"><img loading="lazy" src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80" alt="Live event"><span>Celebrations</span></div>
+    </div>
+  </div></section>
+  <section id="about"><div class="wrap about">
+    <div class="about-photo" role="img" aria-label="Camera and photography equipment"></div>
+    <div class="about-copy"><div class="eyebrow">Behind the lens</div><h2>More than a picture.<br><em style="color:var(--gold)">A feeling.</em></h2>
+      <p>At Smile Shot Photography, we believe every person and every occasion has a story worth telling. Our approach blends creativity with genuine moments, so your photographs feel personal, natural and timeless.</p>
+      <ul class="ticks"><li>Friendly, personalised experience</li><li>Creative ideas tailored to your occasion</li><li>Carefully edited, memorable photographs</li></ul>
+      <a class="btn outline" href="#contact">Let's create together</a>
+    </div>
+  </div></section>
+  <section class="cta" id="contact"><div class="wrap">
+    <div class="eyebrow">Your story starts here</div><h2>Let’s capture something beautiful.</h2><p class="muted">Tell us about your event, date and the kind of memories you want to create.</p>
+    <div class="contact-grid">
+      <div class="contact-card"><strong>WhatsApp</strong><span>Chat about your booking</span><p><a class="btn" id="waLink" href="https://wa.me/919624897956">Message Us ↗</a></p></div>
+      <div class="contact-card"><strong>Instagram</strong><span>See our latest work</span><p><a class="btn outline" id="igLink" href="https://instagram.com/_smile_shot_photography_/" target="_blank" rel="noopener noreferrer">Visit Instagram ↗</a></p></div>
+      <div class="contact-card"><strong>Phone</strong><span>Call to discuss your shoot</span><p><a class="btn outline" id="phoneLink" href="tel:+919624897956">Call Us ↗</a></p></div>
+    </div>
+  </div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> Smile Shot Photography. All rights reserved.</span><span>Made with care · Every moment, a story.</span></div></footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
